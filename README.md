@@ -1,1 +1,0 @@
-# ameenetemady.github.io
