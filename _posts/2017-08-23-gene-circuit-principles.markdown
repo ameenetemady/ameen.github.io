@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Circuitry Perspective of The Genetic Program"
 date:   2017-08-23 14:56:05 -0700
 categories: biology update
@@ -36,3 +37,26 @@ contribution of us (computer scientist), would be in developing (I)
 simple, extensible, debug-able and predictive models and tools, (II)
 reverse engineering methods and (III) more useful perspectives (other
 than circuits), for such intricate systems.
+
+{% if page.comments %}  
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = 'https://ameenetemady.github.io/biology/update/2017/08/23/gene-circuit-principles.html';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = 'gene-circuit-principles'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://ameenetemady-github-io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
